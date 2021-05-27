@@ -1,0 +1,400 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.navBar {
+  border-bottom: 15px solid #ef2a82;
+  background-color: #172755;
+  box-sizing: border-box;
+}
+
+.navbar-brand {
+  color: rgb(255, 255, 255) !important;
+  font-weight: 500;
+  margin: 0 10px;
+}
+.navbar-toggler-icon {
+  color: #8794ba !important;
+}
+.navbar-nav {
+  padding: 10px 50px;
+}
+.navbar-nav a {
+  color: #8794ba !important;
+  margin: 0 10px;
+  font-weight: normal;
+}
+.sign-in-button button {
+  color: #8794ba !important;
+  padding: 10px 50px;
+}
+.sign-up-button button {
+  color: #8794ba !important;
+  padding: 10px 50px;
+  border-radius: 68px;
+  border: solid 1px #465b95;
+}
+.monitor-your-business {
+  margin-top: 100px;
+  margin-bottom: 150px;
+}
+.monitor-your-business h1 {
+  font-size: 50px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+.monitor-your-business p {
+  color: #8794ba;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+}
+.monitor-your-business .btn-color {
+  background-color: #ef2a82;
+  color: #fff;
+  padding: 10px 70px;
+  border-radius: 68px;
+}
+
+.monitor-your-business-right-graph-top img {
+  max-width: 100%;
+}
+.page {
+  background-color: #f8f9ff;
+}
+.page-two {
+  padding-top: 50px;
+}
+.main-feature-container h2 {
+  text-align: center;
+  font-weight: 700;
+  color: #172755;
+}
+.main-feature-container p {
+  color: #8794ba;
+}
+.main-feature-icon-container {
+  flex-flow: column;
+  align-items: center;
+}
+.main-feature-icon {
+  width: 380px;
+  height: 164px;
+  flex-grow: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+@media only screen and (max-width: 991px) {
+  .banner-container {
+    flex-direction: column-reverse;
+    margin: auto !important;
+    display: flex;
+    justify-content: center;
+    padding: 50px 10px;
+  }
+}
+@media only screen and (max-width: 766px) and (min-width: 320px) {
+  .banner-container {
+    flex-direction: column-reverse;
+  }
+  .monitor-your-business {
+    margin-top: 50px;
+  }
+
+  .monitor-your-business h1 {
+    font-size: 28px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    color: #ffffff;
+  }
+  .monitor-your-business p {
+    font-size: 14px;
+  }
+  .main-feature-icon {
+    width: auto;
+  }
+  .main-feature-container h2,
+  p {
+    text-align: left !important;
+  }
+  .main-feature-container p {
+    text-align: left !important;
+  }
+}
+
+.main-feature-icon strong {
+  color: #172755;
+}
+.fa,
+.fas {
+  color: #ef2a82;
+}
+.automated-report-container {
+  margin-top: 50px;
+}
+.pre-built-container {
+  margin-bottom: 50px;
+}
+.automated-left-top h2 {
+  /* font-size: 40px; */
+  font-weight: bold;
+  text-align: left;
+  color: #172755;
+}
+.fully-customized-right-top {
+  padding-left: 50px;
+}
+.fully-customized-right-top h2 {
+  /* font-size: 40px; */
+  font-weight: bold;
+  text-align: left;
+  color: #172755;
+}
+.fully-customized-right-top p {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #8794ba;
+}
+@media only screen and (max-width: 992px) {
+  .fully-customized-container {
+    flex-direction: column-reverse;
+  }
+  .fully-customized-right-top {
+    padding-left: 0;
+  }
+}
+@media only screen and (max-width: 766px) and (min-width: 320px) {
+  .fully-customized-container {
+    flex-direction: column-reverse;
+  }
+
+  .fully-customized-right-top {
+    padding-left: 0;
+  }
+  .automated-left-top h2,
+  .fully-customized-right-top h2,
+  .pre-built-left-top h2 {
+    font-size: 30px;
+    padding-top: 20px;
+  }
+}
+
+.pre-built-left-top h2 {
+  /* font-size: 40px; */
+  font-weight: bold;
+  text-align: left;
+  color: #172755;
+}
+.pre-built-left-top p {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #8794ba;
+}
+.automated-left-top p {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #8794ba;
+}
+@media only screen and (max-width: 766px) and(min-width: 320px) {
+  .automated-left-top h2 {
+    max-width: 100%;
+    font-size: 30px;
+  }
+  .automated-left-top p {
+    max-width: 100%;
+  }
+}
+/* .card {
+  width: auto;
+  height: 410px;
+  margin: 50px 40px 50px 0;
+  border-radius: 30px;
+  box-shadow: 0 18px 50px -15px rgba(25, 42, 89, 0.2);
+  background-color: #ffffff;
+  padding: 25px;
+} */
+
+.fully-customized-left-card img {
+  max-width: 100%;
+  /* margin: 50px 40px 50px 0; */
+}
+.automated-right-card img {
+  max-width: 100%;
+  /* margin: 50px 40px 50px 0; */
+}
+.fully-customized-left-card .charts {
+  max-width: 100%;
+  /* margin: 50px 40px 50px 0; */
+}
+.pre-built-right-card img {
+  max-width: 100%;
+  /* margin: 50px 40px 50px 0; */
+}
+.footer {
+  border-top: #ef2a82 15px solid;
+  background-color: #172755;
+}
+.pricing-container h2 {
+  text-align: center;
+  font-weight: 700;
+  color: #ffffff;
+  margin-top: 150px;
+}
+.pricing-plan-card-container {
+  margin: 50px 0;
+}
+.pricing-container p {
+  color: #8794ba;
+  font-size: 18px;
+  max-width: 660px;
+  margin: auto;
+}
+.pricing-plan-card {
+  width: auto;
+  height: auto;
+  border-radius: 30px;
+  box-shadow: 0 18px 50px -15px #060f28;
+  background-color: #ffffff;
+  padding: 40px;
+  margin: auto;
+}
+.pricing-plan-card-one,
+.pricing-plan-card-three {
+  background-color: #0f1f4b;
+}
+.footer-details {
+  padding: 50px 0 40px 0;
+}
+
+.company-name p {
+  font-size: medium;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.menu-list {
+  flex-direction: row;
+}
+.menu ul > li {
+  color: #8794ba;
+  list-style: none;
+  padding: 0 20px;
+}
+@media only screen and (max-width: 766px) and (min-width: 320px) {
+  .menu-list {
+    flex-direction: column;
+    margin-right: auto;
+  }
+}
+.categories-text {
+  flex-flow: column;
+  align-items: center;
+}
+.categories-text-two h3 {
+  color: #172755 !important;
+  font-weight: 600;
+}
+.categories-text h3 {
+  color: #fff;
+  font-weight: 600;
+}
+
+.price-per-month {
+  color: #fff;
+  flex-direction: column;
+  align-items: center;
+}
+.price-per-month h1 {
+  font-weight: 700;
+}
+.price-per-month span {
+  font-size: 25px;
+  font-weight: 600;
+}
+.price-per-month small {
+  color: #8794ba;
+  font-size: 16px;
+}
+.order-button button {
+  width: 200px;
+  height: 50px;
+  margin: 40px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 68px;
+  border: solid 1px #2a407c;
+}
+.order-button-two button {
+  background-color: #ef2a82 !important;
+  color: #fff;
+  border: none;
+}
+hr {
+  color: white;
+}
+.hr-2 {
+  color: #172755;
+}
+.price-per-month-two {
+  color: #172755;
+}
+.price-per-month-two h1 {
+  font-weight: 700;
+}
+/*CHARTS*/
+.charts {
+  margin: auto 10px;
+}
+.charts__chart-1 {
+  width: 262px;
+  height: 11px;
+  flex-grow: 0;
+  margin: 7px 53px 3px 11px;
+  background-color: #ef2a82;
+  border-radius: 5px;
+}
+
+.charts__chart-2 {
+  width: 339px;
+  height: 11px;
+  flex-grow: 0;
+  margin: 3px 39px 32px 11px;
+  background-color: #0088f0;
+  border-radius: 5px;
+}
+.vertical {
+  border-left: 6px solid black;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+}
